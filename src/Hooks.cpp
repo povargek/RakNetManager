@@ -80,7 +80,7 @@ void * Hooks::HOOK_GetRakServerInterface(void)
 
 		RPCHandle::Create();
 
-		logprintf("[RNM] Initialized. Version: 2.0.0. Author: urShadow");
+		logprintf("[RNM] Initialized. Version: 2.0.0. Author: urShadow (https://github.com/urShadow/RakNetManager)");
 		logprintf("[RNM] Адаптировал под CRMP 0.3e: санек (https://github.com/povargek/RakNetManager)");
 	}
 
