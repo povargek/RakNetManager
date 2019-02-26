@@ -3,6 +3,10 @@ Plugin for SA:MP Server that allows you to work with RakNet in PAWN.
 
 Адаптация плагина RakNet Manager для CRMP 0.3e
 
+# Внимание! Этот репозиторий устарел
+
+Разработчик оригинального RakNetManager (теперь уже под названием Pawn.RakNet) выпустил оффициальную поддержку CRMP (т.е. версии 0.3e) в отдельной ветке: https://github.com/urShadow/Pawn.RakNet/tree/0.3e, готовые бинарники находятся в https://github.com/urShadow/Pawn.RakNet/releases. Настоятельно рекомендую использовать именно оргинальный Pawn.RakNet, т.к. эта версия уже сильно устарела и репозиторий теперь заархивирован.
+
 # Пример использования:
 Этот пример ставит защиту от атаки флудом запроса информации о игроке (TAB), так же когда игрок вызовет окно просмотра таблицы игроков, будет вызвана OnPlayerTabUpdate
 Фикс атаки "коннект в один слот", нововведение 0.3z-R4 с трейлерами (OnPlayerUpdateTrailer, тоже самое что и в 0.3z OnTrailerUpdate)
